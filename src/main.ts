@@ -8,6 +8,7 @@ async function bootstrap() {
   // App module es el modulo ppal de nuestra aplicacion
 
   const config = new DocumentBuilder()
+    .addBearerAuth()
     .setTitle('Mi API documentation')
     .setDescription('Esta es la prueba de mi api')
     .setVersion('1.0')
